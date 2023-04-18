@@ -14,13 +14,13 @@ body {
   display: block;
   margin: 0 auto;
   margin-top: 30px;
-  max-width: 20%;
+  max-width: 100%;
 }
 
 /* Style content */
 .content {
   text-align: center;
-  max-width: 600px;
+  max-width: 60px;
 }
 
 .title {
