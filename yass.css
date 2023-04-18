@@ -1,58 +1,68 @@
-/* Global styles */
-body {
-  background-color: black;
-  color: white;
-  text-align: center;
-  font-family: "Gilroy-Medium", sans-serif;
+/* Center all content vertically */
+html, body {
+  height: 100%;
 }
 
-.container {
+body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.logo {
-  width: 200px;
-  margin-top: 20px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-family: Gilroy-Medium, sans-serif;
 }
 
 h1 {
-  font-family: "Druk-Wide-Medium", sans-serif;
   font-size: 64px;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  font-family: Druk-Wide-Medium, sans-serif;
+  margin: 0;
 }
 
 p {
-  font-size: 24px;
-  margin-bottom: 50px;
+  font-size: 32px;
+  margin: 0;
 }
 
+img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* Style buttons */
 button {
   background-color: transparent;
   color: white;
+  padding: 12px 24px;
   border: none;
   border-radius: 4px;
-  font-size: 24px;
+  font-size: 16px;
   cursor: pointer;
   max-width: 350px;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
-@media (max-width: 768px) {
-  h1 {
-    font-size: 48px;
-    margin-top: 20px;
+@media only screen and (min-width: 768px) {
+  /* On desktop */
+  body {
+    font-size: 24px;
   }
-  p {
-    font-size: 20px;
-  }
+
   button {
-    font-size: 20px;
+    max-width: 250px;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* On mobile */
+  body {
+    font-size: 32px;
+  }
+
+  button {
+    max-width: 150px;
+    margin-top: 40px;
   }
 }
