@@ -2,13 +2,18 @@
 <html>
   <head>
     <title>My Webpage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://maxxxxxxx7.github.io/yass/appIcon_Play.png">
     <style>
-      /* Center text and logo */
+      /* Center text and buttons */
       body {
-        text-align: center;
         background-color: black;
         color: white;
+        text-align: center;
+        padding-top: 100px;
       }
+      /* Center logo */
       img {
         display: block;
         margin: 0 auto;
@@ -17,31 +22,17 @@
       button {
         background-color: transparent;
         color: white;
-        padding: 0;
+        padding: 12px 24px;
         border: none;
-        border-radius: 0;
+        border-radius: 4px;
         font-size: 16px;
         cursor: pointer;
-        display: inline-block;
-        margin: 20px;
-        width: 150px;
-        height: auto;
+        max-width: 350px;
+        display: block;
+        margin: 0 auto 10px auto;
       }
       button:hover {
-        opacity: 0.8;
-      }
-      /* Align text and buttons */
-      .center {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-      }
-      .buttons {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        background-color: #3e8e41;
       }
     </style>
   </head>
@@ -49,14 +40,16 @@
     <!-- Logo -->
     <img src="https://maxxxxxxx7.github.io/yass/YassLogo_C.png" alt="Logo" width="200">
     
-    <!-- Centered text and buttons -->
-    <div class="center">
-      <h1>Get compliments<br>&amp; see who likes you</h1>
-      <p>The social app that lets you say what you love about your friends anonymously</p>
-      <div class="buttons">
-        <a href="https://apps.apple.com/th/app/yass/id1672848070"><img src="https://maxxxxxxx7.github.io/yass/App_Store_(iOS)-Badge-Logo.png" alt="iOS"></a>
-        <a href="https://play.google.com/store/apps/details?id=com.yass.yass"><img src="https://maxxxxxxx7.github.io/yass/Google_Play-Badge-Logo.png" alt="Android"></a>
-      </div>
-    </div>
+    <!-- Centered text -->
+    <h1>Get compliments &amp; see who likes you</h1>
+    <p>The social app that lets you say what you love about your friends anonymously</p>
+    
+    <!-- Buttons -->
+    <a href="https://apps.apple.com/th/app/yass/id1672848070" target="_blank">
+      <img src="https://maxxxxxxx7.github.io/yass/App_Store_(iOS)-Badge-Logo.png" alt="Download on the App Store" width="350">
+    </a>
+    <a href="https://play.google.com/store/apps/details?id=com.yass.yass" target="_blank">
+      <img src="https://maxxxxxxx7.github.io/yass/Google_Play-Badge-Logo.png" alt="Get it on Google Play" width="350">
+    </a>
   </body>
 </html>
