@@ -57,6 +57,7 @@ body {
   .button-img {
     width: 200px;
   }
+  
   .title {
   font-family: Druk-Wide-Medium, sans-serif;
   font-size: 75px;
@@ -68,4 +69,19 @@ body {
   font-size: 44px;
   margin-top: 20px;
 }
+  
+  .content {
+  text-align: center;
+  max-width: 650px;
+}
+}
+  
+  @media screen and (max-width: 480px) {
+  h1 {
+    font-size: 75px;
+  }
+  p {
+    font-size: 44px;
+  }
+  
 }
