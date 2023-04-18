@@ -55,6 +55,6 @@ body {
 @media (max-width: 767px) {
   /* Mobile */
   .button-img {
-    width: 150px;
+    width: 200px;
   }
 }
