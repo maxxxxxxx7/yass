@@ -1,68 +1,71 @@
-/* Center all content vertically */
-html, body {
-  height: 100%;
-}
-
+/* Center content vertically */
 body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Background and text color */
+body {
   background-color: black;
   color: white;
   font-size: 20px;
-  font-family: Gilroy-Medium, sans-serif;
+  font-family: "Gilroy-Medium", sans-serif;
 }
 
-h1 {
-  font-size: 64px;
-  font-family: Druk-Wide-Medium, sans-serif;
-  margin: 0;
+/* Logo */
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: auto;
+  margin: 20px;
 }
 
-p {
-  font-size: 32px;
-  margin: 0;
-}
-
-img {
-  display: block;
-  margin: 0 auto;
-  margin-top: 20px;
-}
-
-/* Style buttons */
-button {
-  background-color: transparent;
-  color: white;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 4px;
-  font-size: 16px;
-  cursor: pointer;
+/* Buttons */
+.btn {
+  display: inline-block;
+  margin: 20px;
   max-width: 350px;
-  margin-top: 20px;
+  overflow: hidden;
+  position: relative;
 }
 
-@media only screen and (min-width: 768px) {
-  /* On desktop */
-  body {
-    font-size: 24px;
-  }
-
-  button {
-    max-width: 250px;
-    margin-top: 40px;
-  }
+.btn img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
 }
 
-@media only screen and (max-width: 767px) {
-  /* On mobile */
+/* Header */
+h1 {
+  font-family: "Druk-Wide-Medium", sans-serif;
+  font-size: 72px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  /* Text size */
   body {
-    font-size: 32px;
+    font-size: 16px;
   }
 
-  button {
+  /* Logo */
+  .logo {
+    width: 150px;
+    margin: 10px;
+  }
+
+  /* Buttons */
+  .btn img {
     max-width: 150px;
-    margin-top: 40px;
+  }
+
+  /* Header */
+  h1 {
+    font-size: 48px;
   }
 }
