@@ -45,12 +45,12 @@ img {
 /* Set font styles for h1 and p tags */
 @font-face {
   font-family: 'Druk-Wide-Medium';
-  src: url('path/to/Druk-Wide-Medium.otf') format('opentype');
+  src: url('https://maxxxxxxx7.github.io/yass/Druk-Wide-Medium.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'Gilroy-Medium';
-  src: url('path/to/Gilroy-Medium.ttf') format('truetype');
+  src: url('https://maxxxxxxx7.github.io/yass/Gilroy-Medium.ttf') format('truetype');
 }
 
 h1 {
