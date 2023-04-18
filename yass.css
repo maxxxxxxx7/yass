@@ -57,4 +57,15 @@ body {
   .button-img {
     width: 200px;
   }
+  .title {
+  font-family: Druk-Wide-Medium, sans-serif;
+  font-size: 75px;
+  margin-top: 50px;
+}
+
+.description {
+  font-family: Gilroy-Medium, sans-serif;
+  font-size: 44px;
+  margin-top: 20px;
+}
 }
