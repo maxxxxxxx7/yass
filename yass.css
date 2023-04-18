@@ -1,67 +1,58 @@
-/* Center text and buttons, and set background color and text color */
+/* Global styles */
 body {
   background-color: black;
   color: white;
   text-align: center;
+  font-family: "Gilroy-Medium", sans-serif;
 }
 
-/* Set max width for buttons */
-button {
-  max-width: 350px;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-/* Remove button background color */
+.logo {
+  width: 200px;
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: "Druk-Wide-Medium", sans-serif;
+  font-size: 64px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
 button {
   background-color: transparent;
   color: white;
   border: none;
+  border-radius: 4px;
+  font-size: 24px;
+  cursor: pointer;
+  max-width: 350px;
+  margin-bottom: 20px;
 }
 
-/* Style buttons on hover */
-button:hover {
-  color: #4CAF50;
-}
-
-/* Center logo */
-img {
-  display: block;
-  margin: 0 auto;
-}
-
-/* Set size for button images on mobile */
-@media only screen and (max-width: 600px) {
-  button img {
-    width: 150px;
+@media (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+    margin-top: 20px;
+  }
+  p {
+    font-size: 20px;
+  }
+  button {
+    font-size: 20px;
   }
 }
-
-/* Set size for button images on desktop */
-@media only screen and (min-width: 601px) {
-  button img {
-    width: 250px;
-  }
-}
-
-/* Set font styles for h1 and p tags */
-@font-face {
-  font-family: 'Druk-Wide-Medium';
-  src: url('https://maxxxxxxx7.github.io/yass/Druk-Wide-Medium.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'Gilroy-Medium';
-  src: url('https://maxxxxxxx7.github.io/yass/Gilroy-Medium.ttf') format('truetype');
-}
-
-h1 {
-  font-family: 'Druk-Wide-Medium', sans-serif;
-  /* add other styles as needed */
-}
-
-p {
-  font-family: 'Gilroy-Medium', sans-serif;
-  /* add other styles as needed */
-}
-
-/* Set favicon */
-<link rel="shortcut icon" href="https://maxxxxxxx7.github.io/yass/appIcon_Play.png" type="image/x-icon">
