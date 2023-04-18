@@ -52,7 +52,7 @@ body {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
   /* Tablet */
   .button-img {
     width: 200px;
@@ -72,22 +72,3 @@ body {
   }
 }
 
-@media screen and (max-width: 480px) {
-  /* Mobile */
-  .button-img {
-    width: 150px;
-  }
-  
-  .title {
-    font-size: 75px;
-  }
-  
-  .description {
-    font-size: 44px;
-  }
-  
-  .content {
-    text-align: center;
-    max-width: 350px;
-  }
-}
