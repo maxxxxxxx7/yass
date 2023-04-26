@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Black Background Page</title>
+	<style>
+		body {
+			background-color: black;
+			color: white;
+			text-align: center;
+		}
+		footer {
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			background-color: rgba(0, 0, 0, 0.5);
+			padding: 10px;
+			box-sizing: border-box;
+			text-align: center;
+		}
+		footer a {
+			color: #D186FF;
+			margin: 0 10px;
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<h1>Contact us</h1>
+	<p>hey@yass-app.com</p>
+	<p><strong>Remember to include your phone number used to sign up for Yass</strong></p>
+
+	<footer>
+		<a href="#">Terms of service</a>
+		<a href="#">Privacy Policy</a>
+		<a href="#">Contact</a>
+	</footer>
+</body>
+</html>
